@@ -12,4 +12,8 @@ import org.springframework.stereotype.Component;
 @Component
 @ComponentScan("com.tj.test")
 public class AppConfig {
+
+    public void testConfig() {
+        System.out.println("我是config");
+    }
 }

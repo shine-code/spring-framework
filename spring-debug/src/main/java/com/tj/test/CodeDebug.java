@@ -17,5 +17,7 @@ public class CodeDebug {
 		UserService service = (UserService)context.getBean("userService");
 		service.save();
 
+		AppConfig appConfig = (AppConfig) context.getBean("appConfig");
+		appConfig.testConfig();
 	}
 }
